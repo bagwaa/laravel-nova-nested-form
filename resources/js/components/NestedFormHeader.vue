@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-50 p-4 items-center text-90 flex justify-between">
+  <div class="bg-50 mb-1 items-center text-90 flex justify-between">
     <div
       v-html="heading"
       v-if="heading"
