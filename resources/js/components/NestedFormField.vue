@@ -36,7 +36,7 @@
       >
         <p
           class="text-center my-4 font-bold text-80 text-xl"
-        >{{__('No related :pluralLabel yet.', { pluralLabel: field.pluralLabel })}}</p>
+        >{{__('Add :pluralLabel', { pluralLabel: field.pluralLabel })}}</p>
         <nested-form-add :field="field" />
       </div>
     </template>
